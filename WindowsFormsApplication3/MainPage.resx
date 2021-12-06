@@ -267,6 +267,126 @@
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;HomePicture.Name" xml:space="preserve">
+    <value>HomePicture</value>
+  </data>
+  <data name="&gt;&gt;HomePicture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HomePicture.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;HomePicture.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;clearButton.Name" xml:space="preserve">
+    <value>clearButton</value>
+  </data>
+  <data name="&gt;&gt;clearButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;clearButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RegistationMain.Name" xml:space="preserve">
+    <value>RegistationMain</value>
+  </data>
+  <data name="&gt;&gt;RegistationMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RegistationMain.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;RegistationMain.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ReportButton.Name" xml:space="preserve">
+    <value>ReportButton</value>
+  </data>
+  <data name="&gt;&gt;ReportButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReportButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;ReportButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelRegistation.Name" xml:space="preserve">
+    <value>panelRegistation</value>
+  </data>
+  <data name="&gt;&gt;panelRegistation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelRegistation.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelRegistation.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;eventBookButton.Name" xml:space="preserve">
+    <value>eventBookButton</value>
+  </data>
+  <data name="&gt;&gt;eventBookButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eventBookButton.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;eventBookButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Search_button.Name" xml:space="preserve">
+    <value>Search_button</value>
+  </data>
+  <data name="&gt;&gt;Search_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Search_button.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Search_button.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panelSearch.Name" xml:space="preserve">
+    <value>panelSearch</value>
+  </data>
+  <data name="&gt;&gt;panelSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelSearch.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelSearch.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 677</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="HomePicture.Location" type="System.Drawing.Point, System.Drawing">
     <value>46, 8</value>
   </data>
@@ -389,6 +509,75 @@
   </data>
   <data name="&gt;&gt;ReportButton.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;FeeRegistation.Name" xml:space="preserve">
+    <value>FeeRegistation</value>
+  </data>
+  <data name="&gt;&gt;FeeRegistation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FeeRegistation.Parent" xml:space="preserve">
+    <value>panelRegistation</value>
+  </data>
+  <data name="&gt;&gt;FeeRegistation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Registation_Button.Name" xml:space="preserve">
+    <value>Registation_Button</value>
+  </data>
+  <data name="&gt;&gt;Registation_Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Registation_Button.Parent" xml:space="preserve">
+    <value>panelRegistation</value>
+  </data>
+  <data name="&gt;&gt;Registation_Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SubjectRegistation.Name" xml:space="preserve">
+    <value>SubjectRegistation</value>
+  </data>
+  <data name="&gt;&gt;SubjectRegistation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SubjectRegistation.Parent" xml:space="preserve">
+    <value>panelRegistation</value>
+  </data>
+  <data name="&gt;&gt;SubjectRegistation.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;StaffRegButton.Name" xml:space="preserve">
+    <value>StaffRegButton</value>
+  </data>
+  <data name="&gt;&gt;StaffRegButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StaffRegButton.Parent" xml:space="preserve">
+    <value>panelRegistation</value>
+  </data>
+  <data name="&gt;&gt;StaffRegButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelRegistation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 320</value>
+  </data>
+  <data name="panelRegistation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 147</value>
+  </data>
+  <data name="panelRegistation.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panelRegistation.Name" xml:space="preserve">
+    <value>panelRegistation</value>
+  </data>
+  <data name="&gt;&gt;panelRegistation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelRegistation.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelRegistation.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="FeeRegistation.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -525,27 +714,6 @@
   <data name="&gt;&gt;StaffRegButton.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panelRegistation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 320</value>
-  </data>
-  <data name="panelRegistation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 147</value>
-  </data>
-  <data name="panelRegistation.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;panelRegistation.Name" xml:space="preserve">
-    <value>panelRegistation</value>
-  </data>
-  <data name="&gt;&gt;panelRegistation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelRegistation.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panelRegistation.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="eventBookButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
@@ -611,6 +779,75 @@
   </data>
   <data name="&gt;&gt;Search_button.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="&gt;&gt;Staff_Search.Name" xml:space="preserve">
+    <value>Staff_Search</value>
+  </data>
+  <data name="&gt;&gt;Staff_Search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Staff_Search.Parent" xml:space="preserve">
+    <value>panelSearch</value>
+  </data>
+  <data name="&gt;&gt;Staff_Search.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Fee_Search.Name" xml:space="preserve">
+    <value>Fee_Search</value>
+  </data>
+  <data name="&gt;&gt;Fee_Search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Fee_Search.Parent" xml:space="preserve">
+    <value>panelSearch</value>
+  </data>
+  <data name="&gt;&gt;Fee_Search.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;subject_Search.Name" xml:space="preserve">
+    <value>subject_Search</value>
+  </data>
+  <data name="&gt;&gt;subject_Search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;subject_Search.Parent" xml:space="preserve">
+    <value>panelSearch</value>
+  </data>
+  <data name="&gt;&gt;subject_Search.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SearchPageButton.Name" xml:space="preserve">
+    <value>SearchPageButton</value>
+  </data>
+  <data name="&gt;&gt;SearchPageButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SearchPageButton.Parent" xml:space="preserve">
+    <value>panelSearch</value>
+  </data>
+  <data name="&gt;&gt;SearchPageButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 132</value>
+  </data>
+  <data name="panelSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 148</value>
+  </data>
+  <data name="panelSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;panelSearch.Name" xml:space="preserve">
+    <value>panelSearch</value>
+  </data>
+  <data name="&gt;&gt;panelSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelSearch.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelSearch.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="Staff_Search.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -743,51 +980,6 @@
   </data>
   <data name="&gt;&gt;SearchPageButton.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="panelSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 132</value>
-  </data>
-  <data name="panelSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 148</value>
-  </data>
-  <data name="panelSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;panelSearch.Name" xml:space="preserve">
-    <value>panelSearch</value>
-  </data>
-  <data name="&gt;&gt;panelSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelSearch.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panelSearch.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 677</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="HomeClick.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
