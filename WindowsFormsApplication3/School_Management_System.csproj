@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BFE45A61-7A46-4B47-8E64-C06AB78012C9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication3</RootNamespace>
+    <AssemblyName>WindowsFormsApplication3</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9BF1ACE9A7399A680F36B6AB4D3C3F9D8FB628F2</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>School_Management_System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLClass_Clear.cs" />
+    <Compile Include="BLClass_EventtBook.cs" />
+    <Compile Include="BLClass_FeeSearch.cs" />
+    <Compile Include="BLClass_HomePage1cs.cs" />
+    <Compile Include="BLClass_Report.cs" />
+    <Compile Include="BLClass_StaffSearch.cs" />
+    <Compile Include="BLClassStudent_RPage.cs" />
+    <Compile Include="BLClassStaff_RPage.cs" />
+    <Compile Include="BLClassSubject_RPage.cs" />
+    <Compile Include="BLClassFee_RPage.cs" />
+    <Compile Include="BLClass_SubjectSearch.cs" />
+    <Compile Include="ClearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClearForm.Designer.cs">
+      <DependentUpon>ClearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBClass_RPage.cs" />
+    <Compile Include="BLClass_StudSearch.cs" />
+    <Compile Include="EventBook_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventBook_Form.Designer.cs">
+      <DependentUpon>EventBook_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeeSearch_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeeSearch_Form.Designer.cs">
+      <DependentUpon>FeeSearch_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeeRegistation_Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeeRegistation_Form1.Designer.cs">
+      <DependentUpon>FeeRegistation_Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Page_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home_Page_Form.Designer.cs">
+      <DependentUpon>Home_Page_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInForm.Designer.cs">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Report_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report_Form.Designer.cs">
+      <DependentUpon>Report_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="school_DatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>school_DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="school_DatabaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>school_DatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="school_DatabaseDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>school_DatabaseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="school_DatabaseDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>school_DatabaseDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StaffSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffSearchForm.Designer.cs">
+      <DependentUpon>StaffSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Search_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Search_Form.Designer.cs">
+      <DependentUpon>Student_Search_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff_RegistationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff_RegistationForm.Designer.cs">
+      <DependentUpon>Staff_RegistationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student_RegistationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_RegistationForm.Designer.cs">
+      <DependentUpon>Student_RegistationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubjectSearch_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubjectSearch_Form.Designer.cs">
+      <DependentUpon>SubjectSearch_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Subject_RegistationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subject_RegistationForm.Designer.cs">
+      <DependentUpon>Subject_RegistationForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ClearForm.resx">
+      <DependentUpon>ClearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventBook_Form.resx">
+      <DependentUpon>EventBook_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeeSearch_Form.resx">
+      <DependentUpon>FeeSearch_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeeRegistation_Form1.resx">
+      <DependentUpon>FeeRegistation_Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_Page_Form.resx">
+      <DependentUpon>Home_Page_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInForm.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.mr.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_Form.resx">
+      <DependentUpon>Report_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffSearchForm.resx">
+      <DependentUpon>StaffSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Search_Form.resx">
+      <DependentUpon>Student_Search_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_RegistationForm.resx">
+      <DependentUpon>Student_RegistationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff_RegistationForm.resx">
+      <DependentUpon>Staff_RegistationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubjectSearch_Form.resx">
+      <DependentUpon>SubjectSearch_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subject_RegistationForm.resx">
+      <DependentUpon>Subject_RegistationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="school_DatabaseDataSet.xsc">
+      <DependentUpon>school_DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="school_DatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>school_DatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="school_DatabaseDataSet.xss">
+      <DependentUpon>school_DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="school_DatabaseDataSet1.xsc">
+      <DependentUpon>school_DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="school_DatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>school_DatabaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="school_DatabaseDataSet1.xss">
+      <DependentUpon>school_DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="school_DatabaseDataSet2.xsc">
+      <DependentUpon>school_DatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="school_DatabaseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>school_DatabaseDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="school_DatabaseDataSet2.xss">
+      <DependentUpon>school_DatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="school_DatabaseDataSet3.xsc">
+      <DependentUpon>school_DatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="school_DatabaseDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>school_DatabaseDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="school_DatabaseDataSet3.xss">
+      <DependentUpon>school_DatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="School_Management_System_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-delete-key-icon-png-favpng-QyKEi5YZShJs1T6X5mdfkLUSW.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="MyApplication.app, Version=1.0.0.0">
+      <Name>WindowsFormsApplication3.vshost.exe.manifest</Name>
+      <HintPath>bin\Debug\WindowsFormsApplication3.vshost.exe.manifest</HintPath>
+    </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\social-network-users-vector-icon-260nw-1337516492-1 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAVE_20211114_134720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-icon-0 %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-vector-home-icon-png-image_991177 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAVE_20211114_1347201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SAVE_20211114_1347202.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-vector-home-icon-png-image_991177.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icontexto-search-01_icon-icons.com_76897 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50501423-pencil-with-eraser-cartoon-icon-isolated-on-a-white-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71633172-graduation-hat-icon-in-duo-tone-color-education-college-student.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\129-1298564_staff-and-locations-staff-icon-hd-png-download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\344-3441162_classroom-icon-stack-of-books-png-transparent-png %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-indian-currency-rupees-d-rendered-image-84057351 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\176-1767022_news-events-event-icon-clipart %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\call-report-icon-3 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\404-4040102_clear-icon-color-clear-all-icon-png-transparent %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-2982449.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
