@@ -64,7 +64,7 @@
             // reg_no
             // 
             this.reg_no.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reg_no.Location = new System.Drawing.Point(108, 46);
+            this.reg_no.Location = new System.Drawing.Point(106, 20);
             this.reg_no.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.reg_no.Name = "reg_no";
             this.reg_no.Size = new System.Drawing.Size(74, 33);
@@ -74,7 +74,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(27, 52);
+            this.label16.Location = new System.Drawing.Point(25, 26);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(62, 19);
             this.label16.TabIndex = 135;
@@ -84,7 +84,7 @@
             // 
             this.Full_Name.BackColor = System.Drawing.Color.White;
             this.Full_Name.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Full_Name.Location = new System.Drawing.Point(108, 90);
+            this.Full_Name.Location = new System.Drawing.Point(106, 64);
             this.Full_Name.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Full_Name.Name = "Full_Name";
             this.Full_Name.Size = new System.Drawing.Size(455, 33);
@@ -94,7 +94,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 96);
+            this.label2.Location = new System.Drawing.Point(10, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 19);
             this.label2.TabIndex = 132;
@@ -103,7 +103,7 @@
             // HomedataGridView
             // 
             this.HomedataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.HomedataGridView.Location = new System.Drawing.Point(35, 132);
+            this.HomedataGridView.Location = new System.Drawing.Point(33, 106);
             this.HomedataGridView.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.HomedataGridView.Name = "HomedataGridView";
             this.HomedataGridView.ReadOnly = true;
@@ -125,7 +125,7 @@
             this.FeePane.Controls.Add(this.Fee);
             this.FeePane.Controls.Add(this.Pending_Fee);
             this.FeePane.Controls.Add(this.label1);
-            this.FeePane.Location = new System.Drawing.Point(510, 249);
+            this.FeePane.Location = new System.Drawing.Point(508, 223);
             this.FeePane.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.FeePane.Name = "FeePane";
             this.FeePane.Size = new System.Drawing.Size(294, 279);
@@ -230,7 +230,7 @@
             // 
             // Photo
             // 
-            this.Photo.Location = new System.Drawing.Point(96, 249);
+            this.Photo.Location = new System.Drawing.Point(94, 223);
             this.Photo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Photo.Name = "Photo";
             this.Photo.Size = new System.Drawing.Size(251, 226);
@@ -243,7 +243,7 @@
             this.searchReg.BackColor = System.Drawing.Color.Blue;
             this.searchReg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchReg.ForeColor = System.Drawing.Color.White;
-            this.searchReg.Location = new System.Drawing.Point(204, 41);
+            this.searchReg.Location = new System.Drawing.Point(202, 15);
             this.searchReg.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.searchReg.Name = "searchReg";
             this.searchReg.Size = new System.Drawing.Size(84, 33);
@@ -257,7 +257,7 @@
             this.searchName.BackColor = System.Drawing.Color.Blue;
             this.searchName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchName.ForeColor = System.Drawing.Color.White;
-            this.searchName.Location = new System.Drawing.Point(810, 83);
+            this.searchName.Location = new System.Drawing.Point(808, 57);
             this.searchName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.searchName.Name = "searchName";
             this.searchName.Size = new System.Drawing.Size(87, 33);
@@ -270,7 +270,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(374, 14);
+            this.label4.Location = new System.Drawing.Point(355, 2);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(122, 19);
             this.label4.TabIndex = 144;
@@ -280,7 +280,7 @@
             // 
             this.Name_label.AutoSize = true;
             this.Name_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name_label.Location = new System.Drawing.Point(90, 496);
+            this.Name_label.Location = new System.Drawing.Point(88, 470);
             this.Name_label.Name = "Name_label";
             this.Name_label.Size = new System.Drawing.Size(111, 32);
             this.Name_label.TabIndex = 145;
@@ -292,7 +292,7 @@
             this.academic_year.DisplayMember = "Academic_Year";
             this.academic_year.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.academic_year.FormattingEnabled = true;
-            this.academic_year.Location = new System.Drawing.Point(683, 87);
+            this.academic_year.Location = new System.Drawing.Point(681, 61);
             this.academic_year.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.academic_year.Name = "academic_year";
             this.academic_year.Size = new System.Drawing.Size(121, 35);
@@ -313,7 +313,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(569, 96);
+            this.label14.Location = new System.Drawing.Point(567, 70);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(121, 19);
             this.label14.TabIndex = 146;
